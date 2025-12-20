@@ -1,13 +1,12 @@
 from customtkinter import *
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
-from dashboard import *
-from customers import *
-from products import *
-from sales import *
-from inventory import *
+from frontend.dashboard import *
+from frontend.sales import *
+from frontend.inventory import *
+from frontend.products import *
+from frontend.customers import *
 
-   
 def main():
     gui.geometry("1200x600")
     gui.title("JOCELYN NAVAL STORE")

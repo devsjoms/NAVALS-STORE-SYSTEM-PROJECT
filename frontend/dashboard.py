@@ -19,7 +19,7 @@ def dashboard(main_frame):
     daily_frame = CTkFrame(container,
                            height=190,
                            width=400,
-                           fg_color= "blue")
+                           fg_color= "#53B913")
     daily_frame.pack(side="left", expand = True)
     daily_frame.pack_propagate(False)
 
@@ -39,14 +39,14 @@ def dashboard(main_frame):
     monthly_frame = CTkFrame(container,
                            height=190,
                            width=400,
-                           fg_color= "blue")
+                           fg_color= "#0E6DC7")
     monthly_frame.pack(side="left", expand = True)
     monthly_frame.pack_propagate(False)
     
     products_frame = CTkFrame(container,
                            height=190,
                            width=400,
-                           fg_color= "blue")
+                           fg_color= "#C37D0D")
     products_frame.pack(side="left", expand = True)
     products_frame.pack_propagate(False)
     
